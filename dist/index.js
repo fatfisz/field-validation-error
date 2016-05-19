@@ -30,7 +30,8 @@ var FieldValidationError = (function (_Error) {
   return FieldValidationError;
 })(Error);
 
-exports.FieldValidationError = FieldValidationError;
+exports['default'] = FieldValidationError;
 
 FieldValidationError.prototype.name = 'FieldValidationError';
 FieldValidationError.prototype.message = '';
+module.exports = exports['default'];
