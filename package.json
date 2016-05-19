@@ -1,6 +1,6 @@
 {
   "name": "field-validation-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple FieldValidationError constructor",
   "main": "dist/index.js",
   "jsnext:main": "lib/index.js",
